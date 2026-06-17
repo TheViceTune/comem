@@ -1,25 +1,52 @@
 /* =============================================
    WIREFRAME BASE STYLES — comem-son-gao
-   Replace colors, fonts, and sizing as needed
    ============================================= */
 
+/* --- Font Face --- */
+/* Using relative paths from this CSS file location (assets/) */
+@font-face {
+  font-family: 'Gilroy VH';
+  src: url('fonts/SVN-Gilroy Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy VH';
+  src: url('fonts/SVN-Gilroy XBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* If your filenames are different, adjust the paths above.
+   Remove any leading "._" – those are macOS hidden files. */
+
 /* --- Reset --- */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Gilroy VH', sans-serif;
   color: #111;
   background: #fff;
   line-height: 1.5;
 }
 
-a { color: inherit; text-decoration: none; }
+a {
+  color: inherit;
+  text-decoration: none;
+}
 
 /* --- Image Placeholder --- */
 .img-box {
@@ -77,13 +104,19 @@ a { color: inherit; text-decoration: none; }
   font-family: inherit;
   color: #111;
 }
-.btn:hover { background: #f0f0f0; }
+
+.btn:hover {
+  background: #f0f0f0;
+}
 
 .btn-fill {
   background: #333;
   color: #fff;
 }
-.btn-fill:hover { background: #555; }
+
+.btn-fill:hover {
+  background: #555;
+}
 
 .btn-sm {
   padding: 5px 14px;
@@ -99,26 +132,87 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* --- Typography utilities --- */
-.text-center  { text-align: center; }
-.text-bold    { font-weight: 700; }
-.text-sm      { font-size: 12px; }
-.text-muted   { color: #777; }
-.text-body    { font-size: 14px; color: #333; line-height: 1.7; }
-.heading-lg   { font-size: 38px; font-weight: 700; line-height: 1.2; }
-.heading-md   { font-size: 22px; font-weight: 700; }
-.heading-sm   { font-size: 15px; font-weight: 600; }
-.label-upper  { font-size: 12px; letter-spacing: 2px; text-transform: uppercase; color: #888; }
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-sm {
+  font-size: 12px;
+}
+
+.text-muted {
+  color: #777;
+}
+
+.text-body {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.7;
+}
+
+.heading-lg {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.heading-md {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.heading-sm {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.label-upper {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #888;
+}
 
 /* --- Spacing utilities --- */
-.mb-1 { margin-bottom: 8px; }
-.mb-2 { margin-bottom: 16px; }
-.mb-3 { margin-bottom: 24px; }
-.mb-4 { margin-bottom: 32px; }
-.mb-5 { margin-bottom: 48px; }
-.mt-1 { margin-top: 8px; }
-.mt-2 { margin-top: 16px; }
-.mt-3 { margin-top: 24px; }
-.mt-4 { margin-top: 32px; }
+.mb-1 {
+  margin-bottom: 8px;
+}
+
+.mb-2 {
+  margin-bottom: 16px;
+}
+
+.mb-3 {
+  margin-bottom: 24px;
+}
+
+.mb-4 {
+  margin-bottom: 32px;
+}
+
+.mb-5 {
+  margin-bottom: 48px;
+}
+
+.mt-1 {
+  margin-top: 8px;
+}
+
+.mt-2 {
+  margin-top: 16px;
+}
+
+.mt-3 {
+  margin-top: 24px;
+}
+
+.mt-4 {
+  margin-top: 32px;
+}
 
 /* --- Number badge (for differentiators) --- */
 .num-badge {
@@ -153,7 +247,10 @@ a { color: inherit; text-decoration: none; }
   border-bottom: 1px solid #eee;
   font-size: 13px;
 }
-.download-item:last-child { border-bottom: none; }
+
+.download-item:last-child {
+  border-bottom: none;
+}
 
 /* --- Horizontal rule --- */
 .divider {

@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Gilroy VH';
+    src: url('@/assets/fonts/._SVN-Gilroy Regular.otf') format('opentype');
+    font-weight: 400;
+    /* Regular */
+    font-style: normal;
+    font-display: swap;
+    /* Improves perceived loading speed */
+}
+
+@font-face {
+    font-family: 'Gilroy VH';
+    src: url('@/assets/fonts/._SVN-Gilroy XBold.otf') format('opentype');
+    font-weight: 700;
+    /* Bold */
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Gilroy VH', sans-serif;
+}
