@@ -1,11 +1,9 @@
 <template>
-  <section class="wf-section media-section">
+  <section id="media" class="wf-section media-section">
     <div class="container">
-
       <h2 class="section-title">MEDIA ASSETS</h2>
 
       <div class="media-grid">
-
         <!-- Column 1: Brand Assets -->
         <div class="media-col card">
           <h3 class="heading-sm text-center mb-4">BRAND ASSETS</h3>
@@ -56,7 +54,6 @@
             <button class="btn btn-sm">⬇ Tải</button>
           </div>
         </div>
-
       </div>
     </div>
   </section>
@@ -64,30 +61,30 @@
 
 <script setup>
 const brandAssets = [
-  { name: 'Logo (AI, PNG, JPG)' },
-  { name: 'Hồ sơ doanh nghiệp (Company Profile)' },
-]
+  { name: "Logo (AI, PNG, JPG)" },
+  { name: "Hồ sơ doanh nghiệp (Company Profile)" },
+];
 
 const productImages = [
-  { name: 'Packshot sản phẩm (9:16; 16:9)' },
-  { name: 'Ảnh sản phẩm trên nền concept (9:16; 16:9)' },
-  { name: 'Ảnh lifestyle (9:16; 16:9)' },
-  { name: 'Ảnh nguyên liệu gạo (9:16; 16:9)' },
-  { name: 'Ảnh texture và swatch (9:16; 16:9)' },
-]
+  { name: "Packshot sản phẩm (9:16; 16:9)" },
+  { name: "Ảnh sản phẩm trên nền concept (9:16; 16:9)" },
+  { name: "Ảnh lifestyle (9:16; 16:9)" },
+  { name: "Ảnh nguyên liệu gạo (9:16; 16:9)" },
+  { name: "Ảnh texture và swatch (9:16; 16:9)" },
+];
 
 const productVideos = [
-  { name: 'TVC (9:16; 16:9)' },
-  { name: 'Video Texture & Application (9:16; 16:9)' },
-  { name: 'Video Ingredient Story (9:16; 16:9)' },
-  { name: 'B-roll Footage' },
-]
+  { name: "TVC (9:16; 16:9)" },
+  { name: "Video Texture & Application (9:16; 16:9)" },
+  { name: "Video Ingredient Story (9:16; 16:9)" },
+  { name: "B-roll Footage" },
+];
 
 const pressItems = [
-  { name: 'Thông cáo báo chí' },
-  { name: 'Infographic thị trường son dưỡng' },
-  { name: 'Media Kit PDF' },
-]
+  { name: "Thông cáo báo chí" },
+  { name: "Infographic thị trường son dưỡng" },
+  { name: "Media Kit PDF" },
+];
 </script>
 
 <style scoped>

@@ -1,5 +1,5 @@
 <template>
-  <section class="wf-section hero-section">
+  <section id="hero" class="wf-section hero-section">
     <div class="container">
       <div class="hero-grid">
         <!-- Left: Text + CTAs -->
@@ -12,12 +12,16 @@
             dành cho báo chí, KOL và đối tác.
           </p>
           <div class="hero-ctas">
-            <router-link to="/san-pham" class="btn btn-fill"
-              >Khám phá sản phẩm</router-link
-            >
-            <router-link to="/media-assets" class="btn"
-              >Tải Media Assets</router-link
-            >
+            <li>
+              <router-link to="/#product" class="btn btn-fill">
+                Khám phá sản phẩm</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/#media" class="btn"
+                >Tải Media Assets</router-link
+              >
+            </li>
           </div>
         </div>
 

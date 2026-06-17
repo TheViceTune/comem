@@ -1,5 +1,5 @@
 <template>
-  <section class="wf-section awards-section">
+  <section id="awards" class="wf-section awards-section">
     <div class="container">
       <!-- Quote + founder image -->
       <div class="founder-row">

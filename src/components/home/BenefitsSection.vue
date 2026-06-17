@@ -1,5 +1,5 @@
 <template>
-  <section class="wf-section benefits-section">
+  <section id="benefits" class="wf-section benefits-section">
     <div class="container">
       <h2 class="section-title">CÔNG DỤNG CHÍNH</h2>
 

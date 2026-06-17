@@ -1,5 +1,5 @@
 <template>
-  <section class="wf-section concept-section">
+  <section id="concept" class="wf-section concept-section">
     <div class="container">
       <h2 class="section-title">CONCEPT NÀNG TIÊN GẠO</h2>
 

@@ -1,5 +1,5 @@
 <template>
-  <section class="wf-section ingredients-section">
+  <section id="ingredients" class="wf-section ingredients-section">
     <div class="container">
       <h2 class="section-title">THÀNH PHẦN NỔI BẬT</h2>
       <p class="section-subtitle">Tinh túy làm nên phép màu</p>

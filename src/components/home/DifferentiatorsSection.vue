@@ -1,5 +1,5 @@
 <template>
-  <section class="wf-section diff-section">
+  <section id="diff" class="wf-section diff-section">
     <div class="container">
       <h2 class="section-title">4 ĐIỀU KHIẾN SON GẠO KHÁC BIỆT</h2>
 

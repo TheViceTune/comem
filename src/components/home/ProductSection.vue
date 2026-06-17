@@ -1,5 +1,5 @@
 <template>
-  <section class="wf-section product-section">
+  <section id="product" class="wf-section product-section">
     <div class="container">
       <h2 class="section-title">SON DƯỠNG GẠO</h2>
       <p class="section-subtitle">

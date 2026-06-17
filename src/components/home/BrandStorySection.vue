@@ -1,5 +1,5 @@
 <template>
-  <section class="wf-section brand-story-section">
+  <section id="brand" class="wf-section brand-story-section">
     <!-- Background image – fills the entire section -->
     <img :src="lab" alt="Lab background" class="section-bg-img" />
 
